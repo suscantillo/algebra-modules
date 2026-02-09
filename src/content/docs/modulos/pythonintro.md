@@ -1,5 +1,5 @@
 ---
-title: Bienvenido a Python
+title: Bienvenido a a la programación
 description: A guide in my new Starlight docs site.
 ---
 
@@ -13,7 +13,7 @@ Así como hace varios años se decía **“que sus hijos aprendan Excel e inglé
 Aprovechemos entonces para aprender un poquito de Python (al menos para salir del desconocimiento) y, de paso, reforzamos Álgebra Lineal.
 ![Salvando el semestre](../../../assets/machinelearningmeme.jpg)
 
-## Python.. yo no sé de serpientes 🐍
+## ¿Hablar con computadoras?
 
 Cuando hablas con tus amigos sobre, no sé, TikTok o cosas de jóvenes, te das cuenta de que ellos te entienden, ¿verdad? Puedes decirle algo a tu amigo y él (si le caes bien) lo hará.  
 Nota que el proceso es algo así:
@@ -35,4 +35,25 @@ Claramente, este lenguaje no será español; no puedes hacer algo como:
 > **Conversación (con el computador)**
 > - Estudiante: Computador, por favor calcula el promedio de las notas del corte.
 > - Computador: Bip bip… necesitas un 5.1 para el final. Bip bip.
+
+
+## Lenguajes de programación
+
+Claramente, no es tan fácil hablar con una computadora. Así como nosotros entendemos español, las computadoras solo entienden lenguajes formados por **unos y ceros** (como `1010111`). Seguramente has visto eso en alguna película, ¿verdad?… como *Matrix* 👀
+
+![Salvando el semestre](../../../assets/matrix.jpg)
+
+Entonces, ¿cómo somos capaces de hablar con una computadora y darle órdenes?  
+¿Acaso le hablamos directamente en unos y ceros? ¿Así es como se crean los TikToks? 😅
+ **antes sí era casi así**, pero hoy en día existe algo intermedio que nos facilita mucho la vida.
+
+ Estos son los llamados lenguajes de programación, los lenguajes de programación nos permiten comunicarnos con la computadora, de una manera mas sencilla usando un lenguaje que tanto nosotros, como la computadoras conocemos, es mediante estos, con que se crean las aplicaciones que usamos hoy en dia, whatsapp, tiktok, hasta el navegador en el que estas leyendo esto, esta hecho con un lenguaje de programacion
+
+![Salvando el semestre](../../../assets/coding.webp)
+
+```python
+print("hola soy un codigo y hago cosas de codigo jeje")
+```
+
+el codigo de arriba.. (chatgpt. sigue escribiendo aqui)
 
