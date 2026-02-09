@@ -1,9 +1,9 @@
 ---
-title: Algebra Lineal + Python
-description:  Tus modulos de python y algebra con 
+title: AlgebrayCOS 
+description:  Tus modulos de Algebra Lineal + Python
 template: splash # Remove or comment out this line to display the site sidebar on this page.
 hero:
-  tagline: By Profe Ivan & Monitor Jesu
+  tagline: Un espacio diseñado por tu profe y monitor para que le saques el provecho a la materia y a los talleres con Python
   image:
     file: ../../assets/houston.webp
   actions:
@@ -15,10 +15,39 @@ hero:
       icon: external
       variant: minimal
 ---
-import YouTubeGrid from '../../components/YouTubeGrid.astro';
+import YouTubeGrid from '@components/YoutubeGrid.astro';
+import BooksGrid from '@components/BooksGrid.astro';
 
+# Libros
+
+<BooksGrid books={[
+  {
+    title: 'Álgebra Lineal y sus Aplicaciones',
+    author: 'Stanley I. Grossman',
+    cover: '../../../assets/grossman.jpeg',
+    link: 'https://cape.fcfm.buap.mx/jdzf/cursos/proba2/libros/grossman.pdf',
+    description: 'Texto completo sobre álgebra lineal con aplicaciones prácticas'
+  },
+  {
+    title: 'Introduction to Linear Algebra',
+    author: 'Gilbert Strang',
+    cover: '/path/to/strang-cover.jpg',
+    link: 'https://example.com/strang',
+    description: 'Uno de los mejores libros para aprender álgebra lineal desde cero'
+  },
+  {
+    title: 'Python for Data Analysis',
+    author: 'Wes McKinney',
+    cover: '/path/to/python-cover.jpg',
+    link: 'https://example.com/python',
+    description: 'Aprende a usar Python para análisis de datos con NumPy y Pandas'
+  }
+]} />
+
+# Videos
 <YouTubeGrid videos={[
-  { id: '6wQh1hZhUM8', title: 'Introducción a Python' },
-  { id: 'OTRO_ID', title: 'Vectores y Matrices' },
-  { id: 'OTRO_ID', title: 'Operaciones Matriciales' }
+  { id: 'csgNflj69-Y', title: 'Algebra desde cero' },
+  { id: 'J7DzL2_Na80', title: 'Lecturas MIT' },
+  { id: 'wyoS89J3ap4', title: 'Algebra en machine learning' },
+  { id: 'fNk_zzaMoSs', title: 'La esencia del Algebra Lineal' }
 ]} />

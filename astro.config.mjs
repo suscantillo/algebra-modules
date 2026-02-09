@@ -11,4 +11,12 @@ export default defineConfig({
 			
 		}),
 	],
+	vite: {
+		resolve: {
+			alias: {
+				'@components': '/src/components',
+				'@': '/src',
+			},
+		},
+	}
 });
