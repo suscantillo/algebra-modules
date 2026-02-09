@@ -1,9 +1,9 @@
 ---
 title: Algebra Lineal + Python
-description: Con el profe Ivan y el monitor jesu.
+description:  Tus modulos de python y algebra con 
 template: splash # Remove or comment out this line to display the site sidebar on this page.
 hero:
-  tagline: Con el profe ivan y el monitor jesu!
+  tagline: By Profe Ivan & Monitor Jesu
   image:
     file: ../../assets/houston.webp
   actions:
@@ -15,6 +15,10 @@ hero:
       icon: external
       variant: minimal
 ---
+import YouTubeGrid from '../../components/YouTubeGrid.astro';
 
-
-
+<YouTubeGrid videos={[
+  { id: '6wQh1hZhUM8', title: 'Introducción a Python' },
+  { id: 'OTRO_ID', title: 'Vectores y Matrices' },
+  { id: 'OTRO_ID', title: 'Operaciones Matriciales' }
+]} />

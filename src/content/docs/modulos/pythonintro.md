@@ -44,16 +44,16 @@ Claramente, no es tan fácil hablar con una computadora. Así como nosotros ente
 ![Salvando el semestre](../../../assets/matrix.jpg)
 
 Entonces, ¿cómo somos capaces de hablar con una computadora y darle órdenes?  
-¿Acaso le hablamos directamente en unos y ceros? ¿Así es como se crean los TikToks? 😅
- **antes sí era casi así**, pero hoy en día existe algo intermedio que nos facilita mucho la vida.
+¿Acaso le hablamos directamente en unos y ceros? ¿Así es como se crean los TikToks? 😅  
+**Antes sí era casi así**, pero hoy en día existe algo intermedio que nos facilita mucho la vida.
 
- Estos son los llamados lenguajes de programación, los lenguajes de programación nos permiten comunicarnos con la computadora, de una manera mas sencilla usando un lenguaje que tanto nosotros, como la computadoras conocemos, es mediante estos, con que se crean las aplicaciones que usamos hoy en dia, whatsapp, tiktok, hasta el navegador en el que estas leyendo esto, esta hecho con un lenguaje de programacion
+Estos son los llamados **lenguajes de programación**. Los lenguajes de programación nos permiten comunicarnos con la computadora de una manera más sencilla, usando un lenguaje que tanto nosotros como la computadora podemos entender.  
+Es mediante estos lenguajes que se crean las aplicaciones que usamos hoy en día: WhatsApp, TikTok, hasta el navegador en el que estás leyendo esto está hecho con algún lenguaje de programación.
 
 ![Salvando el semestre](../../../assets/coding.webp)
 
 ```python
-print("hola soy un codigo y hago cosas de codigo jeje")
+print("hola, soy un código y hago cosas de código jeje")   
 ```
-
-el codigo de arriba.. (chatgpt. sigue escribiendo aqui)
-
+El código de arriba es un ejemplo de un programa muy simple en Python (el lenguaje de programación que usaremos)
+Lo que hace es mostrar en pantalla el texto que está entre comillas. Aunque parece trivial, esta es la base de todo: darle instrucciones claras a la computadora para que ejecute una acción específica.
